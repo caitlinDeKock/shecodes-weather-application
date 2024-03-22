@@ -1,0 +1,22 @@
+body {
+  background: linear-gradient(
+    88.7deg,
+    rgb(207, 150, 207) -2.4%,
+    rgb(107, 116, 179) 102%
+  );
+  font-family: "Roboto Mono", monospace;
+}
+
+.weather-app {
+  background: linear-gradient(
+    179.2deg,
+    rgb(36, 31, 98) 0%,
+    rgb(95, 5, 134) 63.4%,
+    rgb(121, 45, 129) 100%
+  );
+  max-width: 450px;
+  margin: 50px auto;
+  box-shadow: 10px 11px 14px 1px rgba(36, 31, 98, 0.2);
+  border-radius: 16px;
+  padding: 30px;
+}

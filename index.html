@@ -3,26 +3,69 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
+      rel="stylesheet"
+    />
     <title>Weather Application</title>
   </head>
   <body>
-    <h1>Welcome to my weather application</h1>
-    <footer>
-      Coded by
-      <a href="https://github.com/caitlinDeKock" target="_blank"
-        >Caitlin De Kock</a
-      >
-      and can be found on
-      <a
-        href="https://github.com/caitlinDeKock/shecodes-weather-application"
-        target="_blank"
-        >GitHub</a
-      >
-      and hosted on
-      <a href="https://cool-weather-application.netlify.app/" target="_blank"
-        >Netlify</a
-      >
-    </footer>
-    <script src="src/index.js"></script>
+    <div class="weather-app">
+      <header>
+        <form>
+          <input type="search" placeholder="Enter a city..." required />
+          <input type="search" value="Search" />
+        </form>
+      </header>
+      <main>
+        <div class="container-1">
+          <h1>Cape Town</h1>
+          <div class="weather-date">Friday 18:51</div>
+        </div>
+        <div class="conatainer-2">
+          <span class="weather-icon">☀️</span>
+          <span class="container-3">
+            <div class="weather-temperature">29°C</div>
+            <div class="weather-description">Clear sky</div>
+          </span>
+        </div>
+        <div class="container-4">
+          <div class="weather-humidity">
+            Humidity
+            <div class="weather-data">46%</div>
+          </div>
+          <div class="weather-wind">
+            Wind
+            <div class="weather-data">3.6km/h</div>
+          </div>
+        </div>
+      </main>
+      <footer>
+        <p>
+          Coded by
+          <a href="https://github.com/caitlinDeKock" target="_blank"
+            >Caitlin De Kock,</a
+          >
+          is
+          <a
+            href="https://github.com/caitlinDeKock/shecodes-weather-application"
+            target="_blank"
+            >open-sourced on GitHub</a
+          >
+          and
+          <a
+            href="https://cool-weather-application.netlify.app/"
+            target="_blank"
+            >hosted on Netlify.</a
+          >
+        </p>
+      </footer>
+      <script src="src/index.js"></script>
+    </div>
   </body>
 </html>
