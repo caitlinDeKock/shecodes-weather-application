@@ -70,13 +70,15 @@ header {
   color: white;
   display: flex;
   justify-content: space-evenly;
-  margin: 20px 0;
+  margin-top: 20px;
   padding: 0px 160px;
 }
 
 .weather-icon {
   position: relative;
-  font-size: 60px;
+  top: -15px;
+  width: 100px;
+  height: 100px;
 }
 
 .container-3 {
@@ -105,13 +107,15 @@ header {
   max-width: 300px;
   border: 1px solid #c994cd;
   box-shadow: 10px 11px 14px 1px rgba(36, 31, 98, 0.2);
-  margin: 30px auto;
+  margin: 0 auto;
+  margin-bottom: 30px;
   padding: 20px 0px;
   border-radius: 20px;
 }
 
 .weather-humidity {
   text-align: center;
+  width: 72px;
 }
 
 .weather-wind {
